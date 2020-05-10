@@ -462,11 +462,11 @@ ul > li{
 }
 
 .collection__item-type-guys:before{
-    background-image: url(./images/web-ready/collections/collection_man.png);
+    background-image: url(/images/web-ready/collections/collection_man.png);
 }
 
 .collection__item-type-girls:before{
-    background-image: url(./images/web-ready/collections/collection_woman.png);
+    background-image: url(/images/web-ready/collections/collection_woman.png);
     top: -31%;
     width: 80%;
     left: -25%;
