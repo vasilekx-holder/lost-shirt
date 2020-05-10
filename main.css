@@ -222,7 +222,6 @@ ul > li{
     position: absolute;
     left: 50%;
     top: 50%;
-    z-index: 1001;
     transform: translate(-164%, -52%);
 }
 
@@ -230,7 +229,6 @@ ul > li{
     position: absolute;
     left: 25%;
     bottom: 50%;
-    z-index: 1000;
     transform: translate(-9%, 186%);
 }
 
@@ -238,7 +236,6 @@ ul > li{
     position: absolute;
     left: 50%;
     bottom: 50%;
-    z-index: 1012;
     transform: translate(-110%, 130%);
 }
 
