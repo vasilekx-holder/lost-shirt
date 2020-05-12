@@ -339,7 +339,7 @@ ul > li{
 }
 
 .choice_t-shirt__item--picture{
-    min-height: 44px;
+    min-height: 500px;
     flex: 1;
     overflow: hidden;
     margin-left: 11px;
@@ -351,6 +351,12 @@ ul > li{
     display: block;
     max-width: 100%;
     max-height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+
+.t-shirt__img--visible{
+    opacity: 1;
 }
 
 .choice_t-shirt__item--box_selection{
@@ -384,42 +390,36 @@ ul > li{
     color: var(--black);
     font-weight: bold;
     margin-left: 29px;
-    margin-bottom: 17px;
+    margin-bottom: 0px;
     font-kerning: normal;
 }
 
 .price{
-    /* position: absolute; */
     top: 18px;
     left: -6px;
     width: 126px;
     border-bottom: 45px solid var(--yellow);
-    transform: rotate(-180deg);
     margin-left: 29px;
     margin-bottom: 29px;
-    margin-top: 11px;
 }
 
 .price-amount{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     font-family: var(--titlesFont);
     color: var(--black);
-    transform: rotate(180deg);
     position: absolute;
-    top: 2px;
-    right: 28px;
+    transform: translate(17%, -4%);
 }
 
 .line{
-    /* display: flex; */
     width: 100%;
     height: 1px;
     background-color: #e0d9c8;
 }
 
 .info-list__item{
-    font-size: 13,16px;
+    font-size: 13px;
     line-height: 1;
     color: var(--black);
     margin-left: 29px;
@@ -428,11 +428,11 @@ ul > li{
 }
 
 .info-list__item:nth-child(1){
-    margin-top: 28px;
+    margin-top: 25px;
 }
 
 .info-list__item:last-child{
-    margin-bottom: 40px;
+    margin-bottom: 29px;
 }
 
 .block-size__list{
@@ -440,15 +440,15 @@ ul > li{
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    margin-bottom: 29px;
+    margin-bottom: 22px;
     margin-left: 29px;
-    margin-top: 29px;
+    margin-top: 25px;
 }
 
 .block-size__item{
     position: relative;
-    width: 49px;
-    height: 49px;
+    width: 46px;
+    height: 46px;
     border: 2px solid #e0d9c8;
     text-decoration: none;
     margin-right: 10px;
@@ -463,6 +463,71 @@ ul > li{
     color: #e0d9c8;
     transform: translate(-50%, -45%);
 }
+
+.block-colour__list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 29px;
+}
+
+.block-colour__item{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.block-colour__circuit{
+    position: relative;
+    width: 30px; 
+    height: 30px;
+    border: 3px solid var(--yellow);  
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.block-colour__circuit--visible{
+    opacity: 1;
+} 
+
+.block-colour__link{
+    position: absolute;
+    width: 24px; 
+    height: 24px;
+    border-radius: 50%;
+    opacity: 1;
+    text-decoration: none;
+    transform: translate(22%, -122%);
+}
+
+.block-colour__link--black{
+    background: #2f2c25;
+    border: 0.5px solid #2f2c25;
+}
+
+.block-colour__link--white{
+    background: var(--white);
+    border: 0.5px solid #e0d9c8;
+}
+
+.block-colour__link--green{
+    background: #529029;
+    border: 0.5px solid #529029;
+}
+
+.block-colour__link--blue{
+    background: #39498d;
+    border: 0.5px solid #39498d;
+}
+
+.block-colour__link--red{
+    background: #d82727;
+    border: 0.5px solid #d82727;
+}
+
 
 .block-btn{
     margin-left: 29px;
@@ -498,6 +563,7 @@ ul > li{
     border-top-color: red;
     border-left-color: green;
     */
+    
 }
 
 .products__price-amount{
@@ -554,9 +620,9 @@ ul > li{
 .btn{
     text-transform: uppercase;
     font-family: var(--titlesFont);
-    font-size: 24px;
+    font-size: 28px;
     font-weight: normal;
-    padding: 2px 30px;
+    padding: 5px 70px;
     background-color: var(--black);
     color: var(--yellow);
     display: inline-block;
