@@ -27,7 +27,8 @@ html, body {
 
 .container{
     margin: 0 auto;
-    width: 1300px;
+    width: 69%;
+    /* width: 1300px; */
 }
 
 body{
@@ -283,7 +284,7 @@ ul > li{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .filter__item{
@@ -322,7 +323,7 @@ ul > li{
 }
 
 .frame{
-    width: 60%;
+    width: 69%;
     height: 670px;
     background-color: var(--yellow);
     margin: 0 auto;
@@ -339,7 +340,7 @@ ul > li{
 }
 
 .choice_t-shirt__item--picture{
-    min-height: 500px;
+    min-height: 600px;
     flex: 1;
     overflow: hidden;
     margin-left: 11px;
@@ -353,6 +354,7 @@ ul > li{
     max-height: 100%;
     position: absolute;
     opacity: 0;
+    margin-top: 50px;
 }
 
 .t-shirt__img--visible{
@@ -557,7 +559,7 @@ ul > li{
     width: 302px;
     height: 386px;
     background-color: var(--yellow);
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     margin-left: 28px;
     position: relative;
 }
@@ -665,7 +667,7 @@ ul > li{
 }
 
 .products{
-    margin-bottom: 135px;
+    margin-bottom: 59px;
 }
 
 .collection{
@@ -746,7 +748,7 @@ ul > li{
 }
 
 .footer__container{
-    width: 1105px; 
+    width: 69%; 
 }
 
 .site-menu{
